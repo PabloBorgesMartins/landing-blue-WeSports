@@ -1,0 +1,100 @@
+.moneycard-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #20202c;
+  width: 30%;
+
+  box-shadow: 0px 0px 40px #0000008a;
+  border-radius: 7px;
+  opacity: 1;
+}
+
+.moneycard-container h1 {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  opacity: 1;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.moneycard-container span {
+  color: #8a8a8a;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: 'Poppins';
+  font-weight: 200;
+  opacity: 1;
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+.moneycard-container p {
+  color: #c6c6cf;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: 'Poppins';
+  font-weight: 200;
+  opacity: 1;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.moneycard-container .header-content {
+  width: auto;
+  margin-top: 40px;
+  position: relative;
+  background-color: #39394d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.moneycard-container .header-content h1 {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  opacity: 1;
+  font-size: 45px;
+  margin: 0px;
+}
+
+.moneycard-container .body-content {
+  width: auto;
+  background-color: transparent;
+  height: inherit;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+
+.moneycard-container .body-content button {
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .moneycard-container {
+    width: 80vw;
+    margin-bottom: 30px;
+  }
+
+  .moneycard-container .header-content {
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .moneycard-container .body-content {
+    justify-content: center;
+    align-items: center;
+  }
+}

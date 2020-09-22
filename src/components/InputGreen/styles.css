@@ -1,0 +1,32 @@
+.container {
+  border: 0.75px solid#6CE0DB;
+  background-color: transparent;
+  border-radius: 8px;
+  opacity: 1;
+  color: #f4ede8;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.container input {
+  background-color: transparent;
+  flex: 1;
+  border: 0;
+  color: #f4ede8;
+  border-color: transparent;
+  font-family: 'Poppins';
+  min-width: auto;
+}
+
+.container input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 80vw;
+  }
+}
